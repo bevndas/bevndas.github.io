@@ -1,5 +1,6 @@
 $('document').ready(function() {
 	console.log('help');
+	openNav();
 
 });
 	function openNav() {

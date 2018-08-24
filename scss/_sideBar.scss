@@ -8,6 +8,10 @@
     left: 0;
     overflow-x: hidden;
     transition: 0.5s;
+    span {
+	color:orange;
+	font-size: 30px;
+}
 }
 
 .sidenav a {
@@ -58,10 +62,6 @@
 }
 .menu {
 	position:absolute;
-}
-span {
-	color:orange;
-	font-size: 30px;
 }
 .sideBar-top-adjust {
 	height:50px;

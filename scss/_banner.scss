@@ -18,8 +18,8 @@
 	background-repeat: no-repeat;
 	top:40px;
 	right:20px;
-	height:500px;
-	width:350px;
+	height:600px;
+	width:450px;
 	z-index:1;
 }
 .first-name	{
@@ -27,32 +27,44 @@
 	background-image: url('../images/bipin.png');
 	background-size: contain;
 	background-repeat: no-repeat;
-	top:10px;
-	left:40px;
-	height:50px;
-	width:100px;
+	top:-20px;
+	right:510px;
+	height:150px;
+	width:300px;
 	z-index:2;
 }
 .last-name	{
 	position: absolute;
-		background-image: url('../images/shrestha.png');
+	background-image: url('../images/shrestha.png');
 	background-size: contain;
 	background-repeat: no-repeat;
-	top:20px;
-	left:60px;
-	height:50px;
-	width:100px;
+	top:135px;
+	right:340px;
+	height:200px;
+	width:400px;
 	z-index:2;
 }
 .intro-content {
 	position: absolute;
-	top:30px;
-	left:15px;
+	right:420px;
 	z-index:2;
+	bottom:5px;
+}
+.intro-message {
+	height:200px;
+	width:400px;
+	line-height:38px;
+	span {
+	background: #EDEDED;
+	display: inline;
+	font-size: 16px;
+	font-color: black;
+	font-family: Sans-Serif, ariel;
+	}
 }
 .personal-tags {
 	position: absolute;
-	top:4px;
-	left:4px;
 	z-index:2;
+	bottom: 45%;
+	left:30%;
 }
