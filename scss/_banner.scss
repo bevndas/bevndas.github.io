@@ -1,0 +1,58 @@
+@import 'variables';
+.banner-body {
+	height:100vh;
+	width:100%;
+}
+.banner-content {
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
+	width:70%;
+	height: 600px;
+	margin:auto;
+}
+.banner-img  {
+	position: absolute;
+	background-image: url('../images/bannerImg.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top:40px;
+	right:20px;
+	height:500px;
+	width:350px;
+	z-index:1;
+}
+.first-name	{
+	position: absolute;
+	background-image: url('../images/bipin.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top:10px;
+	left:40px;
+	height:50px;
+	width:100px;
+	z-index:2;
+}
+.last-name	{
+	position: absolute;
+		background-image: url('../images/shrestha.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top:20px;
+	left:60px;
+	height:50px;
+	width:100px;
+	z-index:2;
+}
+.intro-content {
+	position: absolute;
+	top:30px;
+	left:15px;
+	z-index:2;
+}
+.personal-tags {
+	position: absolute;
+	top:4px;
+	left:4px;
+	z-index:2;
+}

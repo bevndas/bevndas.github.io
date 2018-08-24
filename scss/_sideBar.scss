@@ -1,0 +1,77 @@
+@import 'variables';
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    color: white;
+    opacity: 0;
+    font-size: 36px;
+    margin-left: 50px;
+    transition:  1s ease-in-out;
+}
+.navb1,.navb2,.navb3,.navb4 {
+	font-family:cupOfSea;
+	position: relative;
+	background-color: #111;
+	padding-left:20px;
+	opacity: 0;
+}
+.navb1 { 
+	height:25%;
+	transition: 0.7s ease-in-out;
+}
+.navb2 {
+	height:25%;  
+	width:100px; 
+	transition: 1.2s ease-in-out;
+}
+.navb3 {height:25%; 
+	width:100px; 
+	transition: 1.6s ease-in-out;
+}
+.navb4 {height:25%; 
+	transition: 0.7s ease-in-out;
+}
+.menu {
+	position:absolute;
+}
+span {
+	color:orange;
+	font-size: 30px;
+}
+.sideBar-top-adjust {
+	height:50px;
+	background-color: $sideBar-background-color;
+}
+.nav-items {
+	height:calc( 100% - 50px);
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

@@ -1,0 +1,44 @@
+@import 'variables';
+@font-face {
+	src: url(../fonts/CupOfSea.ttf);
+	font-family: cupOfSea;
+}
+body  {
+	background-color: white;
+}
+.main-frame  {
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	border: 20px solid #f7f7f7;
+	background-color: white;
+	z-index: -1;
+
+}
+@media (min-width:800px) {
+
+.main-frame {
+	top:20px;
+	left:20px;
+	bottom:20px;
+	right:20px;
+}
+	
+}
+.main-body {
+	height: 100%;
+	width:100%;
+	display: flex;
+	flex-direction: row;
+}
+.sideBar {
+	width:250px;
+	max-width: 250px;
+	height:100%;
+}
+.portfolio-body {
+	flex-grow: 1;
+	height:100%;
+}
