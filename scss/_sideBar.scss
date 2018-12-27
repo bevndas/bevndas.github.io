@@ -31,16 +31,17 @@
     position: absolute;
     top: 0;
     right: 25px;
-    color: white;
+    color: black;
     opacity: 0;
     font-size: 36px;
     margin-left: 50px;
     transition:  1s ease-in-out;
 }
 .navb1,.navb2,.navb3,.navb4 {
+	border-right: 1px solid grey;
 	font-family:cupOfSea;
 	position: relative;
-	background-color: #111;
+	background-color: $sideBar-background-color;
 	padding-left:20px;
 	opacity: 0;
 }

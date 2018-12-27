@@ -14,11 +14,11 @@ $('document').ready(function() {
         document.getElementById("inavb3").style.opacity = "1";
         document.getElementById("inavb4").style.opacity = "1";*/
         document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("close").style.opacity = "1";
+        document.getElementById("close").style.opacity = "0.2";
         var x= document.getElementsByClassName('nav');
 	   	for(let i = 0; i< x.length ; i++) {
 	   		x[i].style['width'] = '250px';
-	   		x[i].style['opacity'] = '1';
+	   		x[i].style['opacity'] = '0.2';
 	   	}
         
 }
@@ -33,10 +33,10 @@ function closeNav() {
         document.getElementById("inavb3").style.opacity = "0";
         document.getElementById("inavb4").style.opacity = "0";*/
             var x= document.getElementsByClassName('nav');
-           document.getElementById("close").style.opacity = "0";
+           document.getElementById("close").style.opacity = "0.2";
 	   	for(let i = 0; i< x.length ; i++) {
 	   		x[i].style['width'] = '0px';
-	   		x[i].style['opacity'] = '0';
+	   		x[i].style['opacity'] = '0.2';
 	   	}
    		function  som() {
          document.getElementById("mySidenav").style.width = "0";
